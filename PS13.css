@@ -1,0 +1,547 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+
+.titulo_loja_junt{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_loja_frs_ft{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_loja_junt_frs{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo_loja_frs{
+    display: flex;
+    align-items: center;
+}
+
+.titulo_loja_frs_fr{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 510px;
+}
+
+.titulo_loja_frs_fv{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.titulo_loja{
+    font-family: 'Arial' ;
+    font-size: 17px;
+    color: white;
+}
+
+.titulo_loja_det{
+    text-decoration: none;
+}
+
+.titulo_loja_fot{
+    width: 250px;
+    height: 200px;
+    margin: 0px 0px 0px 0px;
+}
+
+.imges{
+    width: 40px;
+}
+
+#txtbusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 226px;
+}
+
+.img_lupa{
+    width: 40px;
+}
+
+#btnbusca{
+    float: left;
+    cursor: pointer;
+}
+
+#divbusca img{
+    float: left;
+}
+
+#divbusca{
+    border: solid 3px black;
+    border-radius: 7px;
+    height: 37px;
+    width: 290px;
+}
+
+.imges_nome{
+    text-decoration: none;
+    color: white;
+    width: 40px;
+}
+
+.asd_imges_nome{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ln{
+    color: white;
+    border: 2px solid white;
+}
+
+.ln_mar{
+    color: white;
+    border: 2px solid white;
+    margin: 0px;
+}
+
+.ln_comp{
+    color: white;
+    border: 2px solid white;
+    width: 250px;
+}
+
+.cabec{
+    flex-direction: column;
+}
+
+.opcionais_menu_link{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 3px;
+    padding: 2px 25px;
+}
+
+.opcionais_menu_div{
+    display: flex;
+    align-items: center;
+}
+
+.foto_roupas2{
+    text-align: center;
+    width: 350px;
+    padding: 50px 5px 2px 0px;
+    margin: 0px;
+}
+
+.foto_roupas{
+    text-align: center;
+    width: 250px;
+    margin: 50px 50px 0px;
+    border: 2px solid white;
+}
+
+.detalhe{
+    background-color: white;
+    padding: 20px;
+}
+
+.combo{
+    color: white;
+    font-size: 20px;
+    padding: 135px;
+}
+
+.combo_img{
+    border: 5px solid white;
+    width: 80%;
+    height: 90px;
+    margin: 0px;
+}
+
+.figure_pix{
+    margin: 0px;
+}
+
+.fig_pix{
+    display: flex;
+    width: 99%;
+    height: 350px;
+    border: solid 5px white;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 2s;
+
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+    transition: all 2s;
+}
+
+.det_fot{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: start;
+}
+
+.det_fot_div_dif{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.det_fot_alinhamento{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.det_fot_div{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+.det_nome_div{
+    text-decoration: none;
+    color: white;
+}
+
+.det_nome_det{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.det_fot_div_comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 1px;
+}
+
+.det_fot_valor{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.det_fot_comp_jr{
+    font-size: 10px;
+    color: gray;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.det_fot_comp{
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.det_fot_comp2{
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 200px 650px;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+}
+
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+.rodape{
+    color: white;
+    background-color: gray;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rodape_frs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rodape_frs_pr{
+    margin: 0px 0px 0px 0px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form_bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.form_bloc input{
+    width: 95%;
+    margin: 10px;
+    padding: 0px;
+}
+
+.rodape_div_text{
+    display: flex;
+    align-items: center;
+}
+
+.cartoes_div{
+    display: flex;
+    margin: 10px;
+    width: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cartoes_div_det{
+    display: flex;
+    padding: 0px 10px 0px 10px;   
+}
+
+.filtro{
+    color: white;
+    font-size: 15px;
+}
+
+.filtro_img{
+    width: 30px;
+    padding: 0px 0px 0px 5px;
+}
+
+.filt_let{
+    display: flex;
+    align-items: center;
+}
+
+.filt_img_det{
+    display: flex;
+    align-items: center;
+}
+
+.filt_ali{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px 0px 0px 3px;
+}
+
+.zap{
+    width: 50%;
+}
+
+.zap_div{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: white;
+    border: 5px solid white;
+}
+
+.roupa_junt{
+    display: flex;
+    align-items: center;   
+}
+
+
+.roupa_div_frs{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    color: white;
+}
+
+.tamanho:hover{
+    background-color: white;
+    color: black;
+}
+
+.tamanho{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.tamanho.selecionado{
+    background-color: blue;
+    color: white;
+}
+
+.roupa_div_tam{
+    display: flex;
+    align-items: center;
+}
+
+.roupa_div_tam_h{
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: blue;
+}
+
+.roupa_div_frs_det{
+    display: flex;
+    align-items: center;
+}
+
+.roupa_1h{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0px 0px 65px 0px;
+}
+
+.roupa_3h{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+.roupa_div_junt_comp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.roupa_compra{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px 90px 15px 90px;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white;
+}
+
+.enviar_css{
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px 50px 20px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.enviar_css:hover{
+    background-color: blue;
+}
+
+.form_pag{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.estoque{
+    font-size: 8px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 6px 10px 6px 10px;
+}
+
+.estoque_div{
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+  }
+
+  td{
+    color: white;
+    font-size: 20px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+.table_aa {
+    margin: 0 auto  ;
+}
